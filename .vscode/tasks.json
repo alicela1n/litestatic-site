@@ -6,7 +6,7 @@
         {
             "label": "Build",
             "type": "shell",
-            "command": "litestatic site out",
+            "command": "litestatic . out",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
