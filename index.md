@@ -1,2 +1,2 @@
 # Hello, World
-This is an example index markdown file!
+This is an example website to demonstrate the capabilities of litestatic.
