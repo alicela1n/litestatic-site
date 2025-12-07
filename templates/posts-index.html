@@ -4,14 +4,16 @@
     {% render 'head.html' %}
 </head>
 <body>
+    {% render 'navbar.html' %}
+    
     <h1>Posts</h1>
     <ul>
-	{% assign posts_by_date = posts | sort: 'date' | reverse %}
-	{% for post in posts_by_date %}
-	<p><a href="{{ post.path }}"> {{ post.title }} </a> {{ post.date | date: "%B %d, %Y"}} </p>
-	{% endfor %}
+    {% assign posts_by_date = posts | sort: 'date' | reverse %}
+    {% for post in posts_by_date %}
+    <p><a href="{{ post.path }}"> {{ post.title }} </a> {{ post.date | date: "%B %d, %Y"}} </p>
+    {% endfor %}
     </ul>
+    {% render 'copyright.html' %}
 </body>
-{% render 'copyright.html' %}
 </html>
 

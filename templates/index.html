@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="en">
-<head>
-    {% render 'head.html' %}
-</head>
-<body>
-    {{ index_body }}   
-</body>
-{% render 'copyright.html' %}
+    <head>
+        {% render 'head.html' %}
+    </head>
+    <body>
+        {% render 'navbar.html' %}
+
+        {{ index_body }}
+        {% render 'copyright.html' %}
+    </body>
 </html>

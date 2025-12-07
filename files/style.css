@@ -1,6 +1,6 @@
 body {
-    background: #141519;
-    font-family: 'FantasqueSansMonoRegular';
+    background: #f9dbbd;
+    font-family: 'HackNerdFontRegular';
     font-weight: normal;
     font-style: normal;
     max-width: 800px;
@@ -11,7 +11,32 @@ body {
 }
 
 code {
-    color: #fefefe;
+    color: #da627d;
+}
+
+.navbar ul {
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navbar li {
+    font-size: large;
+    display: inline;
+    margin-left: 0px;
+}
+
+.navbar a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    width: 25%;
+}
+
+.navbar a:hover {
+    color: #a53860;
 }
 
 .pfp {
@@ -23,9 +48,9 @@ code {
 
 .highlight {
     overflow-x: auto;
-    color: #fefefe;
+    color: #ffa5ab;
     padding: 10px;
-    background: #292b33;
+    background: #450920;
 }
 
 .n {
@@ -54,33 +79,32 @@ img {
 }
 
 p {
-    color: #74fbfa;
+    color: #450920;
     font-size: large;
     max-width: 1000px;
     word-wrap: break-word;
 }
 
 a {
-    color: #53b8f8;
-    font-size: large;
+    color: #da627d;
     max-width: 1000px;
     word-wrap: break-word;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffff00;
+    color: #a53860;
 }
 
 h1, h2, h3,
 h4, h5, h6 {
-    color: #ea4696;
+    color: #450920;
     max-width: 1000px;
     word-wrap: break-word;
 }
 
 footer {
-    color: #e43edf;
+    color: #450920;
     max-width: 1000px;
     word-wrap: break-word;
 }
